@@ -10,6 +10,10 @@ module.exports = {
         use: ['babel-loader', 'eslint-loader'],
       },
       {
+        test: /\.(png|svg|jpg|jpeg|gif)$/,
+        type: 'asset/resource',
+      },
+      {
         test: /\.css$/,
         use: ['style-loader', 'css-loader'],
       },

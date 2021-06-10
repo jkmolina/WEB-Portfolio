@@ -1,8 +1,22 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
+import Projects from './Projects'
+import About from './About'
+
+import './styles.css'
+
 const App = () => (
-  <div>Hola</div>
+  <div id="app">
+    <nav>
+      <ul>
+        <li><a href="#about">Acerca de</a></li>
+        <li><a href="#projects">Proyectos</a></li>
+      </ul>
+    </nav>
+    <About />
+    <Projects />
+  </div>
 )
 
 ReactDOM.render(

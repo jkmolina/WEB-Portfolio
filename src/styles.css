@@ -1,0 +1,26 @@
+nav {
+  
+}
+
+
+nav ul{
+  display: flex;
+  justify-content: center;
+  position: fixed;
+}
+
+nav li:first-child {
+  border-right: lightgray 1px solid;
+}
+
+nav li {
+  list-style: none;
+  border-bottom: lightgray 1px solid;
+  padding: 5px;
+  background-color: white;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
