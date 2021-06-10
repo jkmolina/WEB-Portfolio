@@ -1,0 +1,36 @@
+#about {
+  margin-top: 70px;
+}
+
+.top {
+  display: flex;
+}
+
+#about h2 {
+  margin-bottom: 40px;
+}
+
+.top ul.timeline {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+.timeline li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+ul.conocimientos {
+  padding-left: 30px;
+}
+
+.top p {
+  text-align: center;
+  padding: 20px;
+}
+
+.top span {
+  font-weight: bold;
+}

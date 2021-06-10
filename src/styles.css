@@ -1,5 +1,18 @@
+body {
+  background-color: wheat;
+}
+
+li {
+  list-style: none;
+}
+
+ul {
+  padding: 0;
+}
+
 nav {
-  
+  display: flex;
+  justify-content: center;
 }
 
 
@@ -10,17 +23,21 @@ nav ul{
 }
 
 nav li:first-child {
-  border-right: lightgray 1px solid;
+  border-right: gray 2px solid;
 }
 
 nav li {
-  list-style: none;
-  border-bottom: lightgray 1px solid;
+  border-bottom: gray 2px solid;
   padding: 5px;
-  background-color: white;
+  background-color: wheat;
 }
 
 nav a {
   text-decoration: none;
   color: black;
+}
+
+hr {
+  margin-bottom: 50px;
+  margin-top: 20px;
 }
